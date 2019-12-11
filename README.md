@@ -1,5 +1,7 @@
 # Advertisement_detection
-Advertisement detection using deep learning together with Victor Paganotto
+Advertisement detection using deep learning.
+
+Responsible student: Victor Paganotto
 
 Comand line to extract files from directory through text file names:
 
