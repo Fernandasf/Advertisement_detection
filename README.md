@@ -1,11 +1,21 @@
-# Advertisement_detection
-Advertisement detection using deep learning.
+# Advertisement detection
 
-Responsible student: Victor Paganotto
+Could advertisement be classified as a music genre?
+Moreover, could we correlate radio advertisements detectation with music-speech discrimination?
 
-Comand line to extract files from directory through text file names:
+# Legend
 
-Dadosfold1test_namesAudios.txt = nome do arquivo txt onde estão os nomes dos arquivos
-Test = nome da pasta que os arquivos serão movidos
+- Methodology
+HN: Handcrafted Nguyen
+HT: Handcrafted Tzanetakis
+R: Random projection
+CNN+D: Convolutional + Dense
+CNN+SVM: Convolutional + Support Vector Machine
 
-$ cat Dadosfold1test_namesAudios.txt | parallel -m -j0 --no-notice mv {} Test
+- Dataset
+MGG: Music Genres Gtzan
+MGGA: MGG+Advertisement
+LMD: Music Genres
+LMDA: LMD+Advertisement
+MSR: Music Speech Radio
+MSG: Music Speech Gtzan
